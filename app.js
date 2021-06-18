@@ -12,7 +12,7 @@ const http = require("http").Server(app);
 // require the socket.io module
 const io = require("socket.io");
 
-const port = 5000;
+const port = 80;
 
 //bodyparser middleware
 app.use(bodyParser.json());
